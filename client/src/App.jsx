@@ -6,6 +6,7 @@ import About from './pages/About'
 import Login from './pages/Login'
 import Jobs from './pages/Jobs'
 import Search from './pages/Search'
+import Signup from './pages/Signup'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path='/sign-in' element={<Login />} />
         <Route path='/job' element={<Jobs />} />
         <Route path='/search' element={<Search />} />
+        <Route path='/sign-up' element={<Signup />} />
       </Routes>
     </BrowserRouter>
   )
